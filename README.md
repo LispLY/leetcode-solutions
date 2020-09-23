@@ -11,3 +11,4 @@ Licence: WTFPL
 - 1032: Time out
 - 459: to follow the dp solution from others.
 - 152: to follow the online solution from others.
+- 134: simple solution
