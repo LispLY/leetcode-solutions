@@ -7,7 +7,7 @@ Licence: WTFPL
 ## TODO
 
 - 437: There is a better way with O(n) time.
-- 123: Need a redo
+- 123: Why my solution that slow?
 - 1032: Time out
 - 459: to follow the dp solution from others.
 - 152: to follow the online solution from others.

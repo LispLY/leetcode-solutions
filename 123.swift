@@ -1,3 +1,36 @@
+// 思路：基于第一题
+// 要点：第一题作为一个 online 方法，能给出截止到每一步的答案
+// 从前到后，找到截止到每个点的最好结果，O(n)
+// 从后到前，找到截止到每个点的最好结果
+// 两者和的最大值就是结果
+
+class Solution {
+    func maxProfit(_ prices: [Int]) -> Int {
+        // 由左至右
+        var lresults = Array(repeating: 0, count: prices.count)
+        var l = 0
+        for r in prices.indices.dropFirst() {
+            lresults[r] = max(lresults[r-1], prices[r] - prices[l])
+            if prices[r] < prices[l] {
+                l = r
+            }
+        }
+
+        // 由右至左
+        var rresult = 0
+        var best = 0
+        var r = prices.count - 1
+        for l in prices.indices.reversed().dropFirst() {
+            rresult = max(rresult, prices[r] - prices[l])
+            if prices[r] < prices[l] {
+                r = l
+            }
+            best = max(best, lresults[l] + rresult)
+        }
+        return best
+    }
+}
+
 // from others
 
 class Solution {
