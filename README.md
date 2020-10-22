@@ -14,3 +14,4 @@ Licence: WTFPL
 - 134: simple solution
 - 39: to follow the dp solution from others.
 - 133: There is a more elegant 1-pass recusive solution.
+- 111: Why so slow?
