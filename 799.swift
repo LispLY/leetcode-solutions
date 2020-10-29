@@ -1,5 +1,6 @@
 // 迭代方法
 // 空间可以优化
+// TODO: 更自然的方法 - 模拟倒酒，向下更新，不用判断边界！
 class Solution {
     func champagneTower(_ poured: Int, _ query_row: Int, _ query_glass: Int) -> Double {
         let rows = query_row + 1
