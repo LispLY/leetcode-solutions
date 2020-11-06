@@ -16,3 +16,4 @@ Licence: WTFPL
 - 133: There is a more elegant 1-pass recusive solution.
 - 111: Why so slow?
 - 1510: Why so slow?
+- 1283: Not the best way to do binary search.
