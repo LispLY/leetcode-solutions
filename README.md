@@ -17,3 +17,4 @@ Licence: WTFPL
 - 111: Why so slow?
 - 1510: Why so slow?
 - 1283: Not the best way to do binary search.
+- 1705: Swift has no priority queue which is needed.
