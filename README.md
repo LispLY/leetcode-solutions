@@ -19,3 +19,4 @@ Licence: WTFPL
 - 1283: Not the best way to do binary search.
 - 1705: Swift has no priority queue which is needed.
 - 1781: TLE
+- 322:  DFS is Much faster. Check on it.
