@@ -13,17 +13,13 @@ class Solution {
         }
         
         
-        var powers = [Int]()
-        var p = 1 
         let digitsN = digits(N)
-        while p <= 1000000000 {
-            if digitsN == digits(p) {
+        for i in 0..<32 {
+            if digitsN == digits(1<<i) {
                 return true
             }
-            p *= 2
         }
         
         return false
     }
-    
 }
