@@ -1,6 +1,6 @@
 # leetcode-solutions
 
-My leetcode solutions.
+My leetcode solutions basically in swift.
 
 Licence: WTFPL
 
